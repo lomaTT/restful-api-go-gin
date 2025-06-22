@@ -1,0 +1,14 @@
+GET http://localhost:8083/albums
+
+###
+POST http://localhost:8083/albums
+Content-Type: application/json
+
+{
+  "title": "Somewhere over the rainbow",
+  "artist": "Betty Carter",
+  "price": 49.99
+}
+
+###
+GET http://localhost:8083/albums/3
